@@ -195,6 +195,11 @@
     #logos a {
         color: #444B5E;
     }
+    /* MAP SECTION  */
+    
+    .map {
+        margin-bottom: 0px;
+    }
     
     #map {
         margin: 0px 0px 24px;
@@ -228,9 +233,37 @@
     }
     
     #mape {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: space-between;
         align-items: baseline;
+        margin-bottom: 0px;
+    }
+    
+    #mape div:nth-child(1) {
+        width: 98rem;
+        height: 86rem;
+        background-image: url("assets/imgkulia.jpeg");
+        background-position-x: -8rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    #mape div:nth-child(2) {
+        width: 99rem;
+        height: 73rem;
+        background-image: url("assets/imgkati.jpeg");
+        background-position-y: 2.6rem;
+        background-repeat: no-repeat;
+        background-size: 28rem;
+    }
+    
+    #mape div:nth-child(3) {
+        width: 98rem;
+        height: 86rem;
+        background-image: url("assets/imgkushoto.jpeg");
+        background-position-x: 6rem;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     
     .studio {
@@ -238,7 +271,7 @@
         justify-content: space-between;
         padding-left: 4%;
         padding-right: 4%;
-        margin-top: 17rem;
+        margin-top: 1rem;
     }
     
     #stud img {
@@ -416,11 +449,13 @@
         margin-top: 13rem;
     }
     
-    #data2 img {
+    #data2 {
         width: 690px;
         height: 474px;
-        border-radius: 2rem;
-        margin-right: -1rem;
+        /* border-radius: 0rem 2rem 0rem 2rem; */
+        background-image: url("assets/data.jpeg");
+        background-position-x: 6rem;
+        background-repeat: no-repeat;
     }
     
     #data1 {
@@ -454,6 +489,7 @@
     #data1 button:hover {
         background-color: rgba(139, 135, 135, 0.1);
     }
+    /*MAPBOX PLATFORM SECTION AND THEIR STYLES */
     
     .platform {
         margin-top: 12rem;
@@ -480,18 +516,23 @@
         background-color: #202020;
         width: 246px;
         height: 338px;
+        background-image: url("assets/web.png");
+        background-position-y: 10rem;
+        background-position-x: 3rem;
+        background-size: 15rem;
+        background-repeat: no-repeat;
     }
     
     #web:hover {
         background-color: #007AfC;
         transform: scale(1.06);
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
-    
-    #web img {
+    /* #web img {
         margin: 4.8rem 0rem 0rem 3.7rem;
         width: 12rem;
-    }
+    } */
     
     #web h3 {
         margin-top: 3rem;
@@ -506,18 +547,23 @@
         background-color: #202020;
         width: 246px;
         height: 338px;
+        background-image: url("assets/mobile.png");
+        background-position-y: 11.6rem;
+        background-position-x: 2rem;
+        background-size: 18rem;
+        background-repeat: no-repeat;
     }
     
     #mob:hover {
         background-color: #007AfC;
         transform: scale(1.06);
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
-    
-    #mob img {
+    /* #mob img {
         margin: 4.7rem 0rem 0rem 4.3rem;
         width: 16rem;
-    }
+    } */
     
     #mob h3 {
         margin-top: 3rem;
@@ -532,18 +578,23 @@
         background-color: #202020;
         width: 246px;
         height: 338px;
+        background-image: url("assets/ar.png");
+        background-position-y: 11rem;
+        background-position-x: 3rem;
+        background-size: 18rem;
+        background-repeat: no-repeat;
     }
     
     #ar:hover {
         background-color: #007AfC;
         transform: scale(1.06);
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
-    
-    #ar img {
+    /* #ar img {
         margin: 4.7rem 0rem 0rem 3.4rem;
         width: 12rem;
-    }
+    } */
     
     #ar h3 {
         margin-top: 3rem;
@@ -558,18 +609,23 @@
         background-color: #202020;
         width: 246px;
         height: 338px;
+        background-image: url("assets/atlas.png");
+        background-position-y: 10rem;
+        background-position-x: 0.5rem;
+        background-size: 15rem;
+        background-repeat: no-repeat;
     }
     
     #atlas:hover {
         background-color: #007AfC;
         transform: scale(1.06);
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
-    
-    #atlas img {
+    /* #atlas img {
         margin: 4.7rem 0rem 0rem 3.4rem;
         width: 12rem;
-    }
+    } */
     
     #atlas h3 {
         margin-top: 3rem;
@@ -578,6 +634,7 @@
         font-size: 1.75rem;
         font-family: sans-serif;
     }
+    /* SHOWCASE SECTION AND THEIR STYLES */
     
     .showcase {
         background-color: #202020;
@@ -608,6 +665,11 @@
         padding: 54px 48px 0px;
         border-radius: 1rem;
         margin: 0rem 5rem 5rem 0rem;
+        background-image: url("assets/snapincimg.png");
+        background-position-y: 7rem;
+        background-position-x: 7rem;
+        background-size: 15rem;
+        background-repeat: no-repeat;
     }
     
     #ndani1 img:nth-child(2) {
@@ -618,7 +680,8 @@
     
     #ndani1:hover {
         transform: scale(1.06);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
     }
     
     #ndani2 {
@@ -632,7 +695,8 @@
     
     #ndani2:hover {
         transform: scale(1.06);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
     }
     
     #ndani2 img {
@@ -656,6 +720,7 @@
     #ndani3:hover {
         transform: scale(1.06);
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
     
     #ndani4 {
@@ -673,7 +738,8 @@
     
     #ndani4:hover {
         transform: scale(1.06);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
     }
     
     #ndani4 img {
@@ -683,6 +749,7 @@
     .ndani button {
         margin-left: 18.8rem;
     }
+    /* FOOTER SECTION AND THEIR STYLES */
     
     .chini {
         padding: 100px 48px 50px 36px;
