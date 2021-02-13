@@ -190,6 +190,13 @@
     
     #logos img {
         width: 15rem;
+        opacity: 0.3;
+        filter: grayscale(100);
+    }
+    
+    #logos img:hover {
+        opacity: 1;
+        /* filter: grayscale(100); */
     }
     
     #logos a {
